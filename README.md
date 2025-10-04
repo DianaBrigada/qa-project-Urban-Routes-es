@@ -2,8 +2,7 @@ PROYECTO SPRINT 9
 Aplicación: Urban Routes
 
 Descripción: Cubrir pruebas de interacción al pedir un servicio de taxi en la aplicación Urban Routes, se espera
-cubrir un usuario/usuaria para pedir un taxi, utilizar 4 localizadores (al menos) prueba de botones y entradas 
-de la interfaz:
+cubrir un usuario/usuaria para pedir un taxi, prueba de botones y entradas de en interfaz:
 
 1. Configurar la dirección.
 2. Seleccionar la tarifa Comfort.
@@ -16,5 +15,7 @@ de la interfaz:
 9. Esperar a que aparezca la información del conductor en el modal.
 
 Lenguaje de programación: Python
+Navegador de prueba: ChromeDriver
 Aplicación para ejecutar pruebas: PyCharm
-Aplicación de comandos: GitBash
+Aplicación de comandos a repositorio: GitBash
+Repositorio: https://github.com/DianaBrigada
