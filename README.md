@@ -1,21 +1,43 @@
-PROYECTO SPRINT 9
-Aplicación: Urban Routes
+# 🚕 Urban Routes – QA Automation Project
 
-Descripción: Cubrir pruebas de interacción al pedir un servicio de taxi en la aplicación Urban Routes, se espera
-cubrir un usuario/usuaria para pedir un taxi, prueba de botones y entradas de en interfaz:
+## 📌 Descripción del Proyecto
+**Urban Routes** es un proyecto de **automatización de pruebas end-to-end** que valida el flujo completo de solicitud de un **servicio de taxi en línea**.  
+El objetivo principal es asegurar el correcto funcionamiento del proceso de reserva, verificando cada una de las interacciones del usuario desde la configuración de direcciones hasta la confirmación del servicio.
 
-1. Configurar la dirección.
-2. Seleccionar la tarifa Comfort.
-3. Rellenar el número de teléfono.
-4. Agregar una tarjeta de crédito. 
-5. Escribir un mensaje para el controlador.
-6. Pedir una manta y pañuelos.
-7. Pedir 2 helados.
-8. Aparece el modal para buscar un taxi.
-9. Esperar a que aparezca la información del conductor en el modal.
+Las pruebas automatizadas validan acciones como:
+- Ingreso y validación de direcciones
+- Selección de tarifas
+- Interacción con botones y formularios
+- Ingreso de datos de contacto
+- Comunicación con el conductor para solicitudes adicionales
+- Métodos de pago
+- Confirmación de la reserva del servicio
 
-Lenguaje de programación: Python
-Navegador de prueba: ChromeDriver
-Aplicación para ejecutar pruebas: PyCharm
-Aplicación de comandos a repositorio: GitBash
-Repositorio: https://github.com/DianaBrigada
+---
+
+## 🧪 Alcance de las Pruebas
+Las pruebas cubren el flujo completo de solicitud de un taxi, incluyendo:
+
+- Configuración de la dirección de origen y destino
+- Selección de la tarifa **Comfort**
+- Registro del número de teléfono
+- Agregado de tarjeta de crédito
+- Envío de mensajes al conductor
+- Solicitud de servicios adicionales (manta y pañuelos)
+- Pedido de 2 helados
+- Espera y validación de la búsqueda de un taxi
+
+---
+
+## 📂 Estructura del Proyecto
+
+```text
+qa-project-Urban-Routes/
+│
+├── data.py          # Datos utilizados en las pruebas
+├── locators.py      # Localizadores de los elementos de la página
+├── helpers.py       # Funciones auxiliares (ej. obtención de código de confirmación)
+├── methods.py       # Métodos reutilizables para las pruebas
+├── test_main.py     # Casos de prueba y validaciones principales
+└── README.md        # Documentación del proyecto
+
